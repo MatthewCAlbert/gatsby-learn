@@ -1,0 +1,17 @@
+.blog_post {
+  &_item {
+    position: relative;
+    max-width: 1000px;
+    padding: 20px 40px;
+  }
+  &_header {
+    span {
+      color: blue;
+    }
+  }
+  &_content {
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;
+  }
+}
